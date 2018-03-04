@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Movimientos cliente </title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+</head>
+<body>
+	<div><br></div>
+	<section>
+		<div class="container">
+			<div class="jumbotron">
+				<form>
+					<div class="form-group">
+						<h3>Nombre del movimiento </h3>
+						<input class="form-control input-lg" type="text">
+					</div>
+					<div class="form-group">
+						<h3>Tipo de movimiento</h3>
+						<select class="form-control input-lg">
+						  <option></option>
+						  <option>Credito</option>
+						  <option>Debito</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<h3>Valor movimiento</h3>
+						<div class="input-group">
+							<span class="input-group-addon">$</span>
+							<input class="form-control input-lg" type="text">
+						</div>
+					</div>
+					<div class="form-group">
+						<button type="button" class="btn btn-primary btn-lg btn-block">Crear movimiento</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<section>
+			<div class="container">
+				<div class="jumbotron">
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>Nombre movimiento</th>
+								<th>Tipo movimiento</th>
+								<th>Valor movimiento</th>
+								<th>Fecha registro</th>
+								<th>Accion</th>
+							</tr>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</section>
+	</section>
+	<script type="text/javascript" src="angular.js"></script>
+ 	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
